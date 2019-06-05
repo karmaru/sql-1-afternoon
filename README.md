@@ -16,7 +16,7 @@ Any new tables or records that we add into the database will be removed after yo
     CREATE TABLE person ( person_id SERIAL, name VARCHAR, age INTEGER, height INTEGER, city VARCHAR, favorite_color VARCHAR );
 2. Add 5 different people into the person database. 
     * Remember to not include the person_id because it should auto-increment.
-    INSERT INTO person ( name, age, height, city, favorite_color ) VALUES ( 'First Last', 21, 182, 'City', 'Color' );
+    INSERT INTO person ( name, age, height, city, favorite_color ) VALUES ( 'Todd Hipps', 21, 182, 'City', 'Color' );
 3. List all the people in the person table by height from tallest to shortest.
 SELECT * FROM person ORDER BY height DESC;
 4. List all the people in the person table by height from shortest to tallest.
